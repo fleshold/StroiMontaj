@@ -9,3 +9,7 @@
         <!-- Footer-->
 <?php require 'tmpl/footer.php' ?>           
        
+/*'number' => function ($field, $value) {
+              if (($value == '' || $value == null || !preg_match('/^[0-9]+$/', $value))) {
+                 
+              return true;
